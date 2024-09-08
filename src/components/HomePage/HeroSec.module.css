@@ -1,0 +1,74 @@
+.heroSection {
+  position: relative;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.overlayHero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+}
+
+.heroContent {
+  color: white;
+  z-index: 2;
+ 
+  padding: 0 20px;
+
+}
+
+.dynamicText {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 1.6;
+  white-space: pre-wrap; /* Allows wrapping of text */
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.typingChar {
+  opacity: 0;
+  display: inline-block;
+  animation: typing 0.5s forwards;
+  animation-delay: var(--delay); /* Delay for each character */
+  margin-right: 1px; /* Adds spacing between characters */
+}
+
+/* Responsive Text Styling */
+@media (max-width: 768px) {
+  .dynamicText {
+    font-size: 1.2rem; /* Smaller font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .dynamicText {
+    font-size: 1rem; /* Even smaller font size for mobile */
+  }
+}
+
+@keyframes typing {
+  to {
+    opacity: 1;
+  }
+}

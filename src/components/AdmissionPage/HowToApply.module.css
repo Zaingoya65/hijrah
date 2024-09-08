@@ -1,0 +1,44 @@
+/* HowToApply.module.css */
+
+.container {
+    max-width: 1250px; /* Set the maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding around the content */
+  }
+  
+  .heading {
+    font-size: 2rem; /* Set the font size for the heading */
+    font-weight: bold;
+    color: #3347a8; /* Use the preferred blue color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+ 
+  }
+  
+  .stepsList {
+    list-style-type: decimal; /* Use decimal numbering for the ordered list */
+    padding-left: 20px; /* Add some padding to the left */
+    margin-bottom: 20px; /* Add space below the list */
+  }
+  
+  .listItem {
+    font-size: 16px; /* Set the font size for list items */
+    color: #555; /* Use a subtle color for the text */
+    margin-bottom: 10px; /* Add space below each list item */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  
+  .subHeading {
+    font-size: 1.8rem; /* Subheading font size slightly smaller than main heading */
+    font-weight: bold;
+    color: #3347a8; /* Maintain consistent color with main heading */
+    margin-top: 30px; /* Add space above the subheading */
+    margin-bottom: 15px; /* Add space below the subheading */
+  }
+  
+  .paragraph {
+    font-size: 16px; /* Paragraph font size matches list item font size */
+    color: #555; /* Maintain consistent text color */
+    line-height: 1.6; /* Ensure paragraphs are easy to read */
+    margin-bottom: 15px; /* Add space below each paragraph */
+  }
+  

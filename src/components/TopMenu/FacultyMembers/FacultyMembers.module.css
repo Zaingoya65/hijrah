@@ -1,0 +1,78 @@
+.facultySection {
+  padding: 20px;
+
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member {
+  width: 45%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.name {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.position {
+  font-size: 1rem;
+  color: #777;
+  margin: 0 0 5px 0;
+}
+
+.bio, .email {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .member {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .photo {
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+}

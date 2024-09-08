@@ -1,0 +1,53 @@
+.coreValuesContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+ 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.description li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .coreValuesContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,149 @@
+
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Flex container for rows */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Space between rows */
+  }
+  
+  /* Column styling */
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+  
+  /* Styling for headings */
+  h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling links */
+  .footer a {
+    text-decoration: none; /* Remove underline by default */
+    color: #fff; /* White text color */
+    font-size: 13px;
+  }
+  
+  /* Styling links on hover */
+  .footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #fff; /* Ensure text color remains white on hover */
+  }
+  
+  /* Social icons container */
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #fff; /* Ensure icons are white */
+    font-size: 14px;
+    padding: 3px;
+  }
+  
+  .footer-bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+ 
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff; /* Text color for links */   font-size: 11px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #fff; /* White color on hover */
+  }
+  
+  .footer-info {
+    text-align: left; /* Align text to the right */
+    color: #fff; /* Set text color to white */
+    font-size: 11px; /* Reduce font size */
+  }
+  
+  .footer-info p {
+    margin: 0; /* Remove default margin */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    
+    .col-md-3 {
+      flex: 1 0 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px; 
+      justify-content: center;
+    
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 2px; /* Increased space between links on smaller screens */
+    }
+    
+    .footer-info{
+        margin-top: 20px;
+        text-align: center; /* Align text to .. */
+
+
+    }
+    
+    .footer-info p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-info p {
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,103 @@
+.findEventContainer {
+    padding: 20px;
+
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .categorySelect {
+    width: 35%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .eventsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .eventCard {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%; /* Adjusted to fit 4 columns */
+    transition: transform 0.3s ease;
+  }
+  
+
+  .eventImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .eventDetails {
+    padding: 15px;
+  }
+  
+  .eventTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .eventDate {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .eventDescription {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .eventCard {
+      width: 48%; /* Adjusted to fit 2 columns */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .searchInput, .categorySelect {
+      width: 100%;
+    }
+  
+    .eventsGrid {
+      flex-direction: column;
+    }
+  
+    .eventCard {
+      width: 100%;
+    }
+  }
+  

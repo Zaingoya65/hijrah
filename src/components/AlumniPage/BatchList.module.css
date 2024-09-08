@@ -1,0 +1,30 @@
+.batchList {
+    margin: 40px 0px;
+  
+
+  }
+  
+  .batchContainer {
+    margin-bottom: 10px;
+    
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .batchHeader {
+    background-color: #3347a8;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .batchDetails {
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 1.9em;
+   margin-bottom: 10px;
+  }
+  

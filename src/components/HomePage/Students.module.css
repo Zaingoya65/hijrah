@@ -1,0 +1,114 @@
+.container {
+  padding: 60px 20px;
+
+
+}
+
+.heading {
+  font-size: 40px;
+  color: #283e6f;
+
+ 
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+ 
+ 
+}
+
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  margin: 20px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Added transition */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  background-color: #f8f9fa; /* Subtle background change on hover */
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.icon {
+  font-size: 48px;
+  
+  color: #283e6f;
+  margin-bottom: 20px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transition */
+}
+
+.card:hover .icon {
+  color: #506aac     ; /* Change icon color on hover */
+  transform: rotate(15deg); /* Subtle rotate effect */
+}
+
+.title {
+  font-size: 26px;
+  color: #283e6f;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Added transition */
+}
+
+.card:hover .title {
+  color: #283e6f; /* Title color change on hover */
+}
+
+.text {
+  font-size: 16px;
+  color: #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  transition: color 0.3s ease; /* Added transition */
+}
+
+.card:hover .text {
+  color: #283e6f; /* Text color change on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  .icon {
+    font-size: 36px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .icon {
+    font-size: 32px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,49 @@
+/* ContactInformation.module.css */
+
+.container {
+    max-width: 1250px; /* Set the maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+   
+  }
+  
+  .heading {
+    font-size: 2rem; /* Set the font size for the heading */
+    font-weight: bold;
+    color: #3347a8; /* Preferred blue color for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+   
+  }
+  
+  .paragraph {
+    font-size: 16px; /* Set the font size for paragraphs */
+    color: #555; /* Use a subtle color for the text */
+    margin-bottom: 15px; /* Add space below each paragraph */
+    line-height: 1.6; /* Ensure paragraphs are easy to read */
+  }
+  
+  .contactDetails {
+    margin-top: 20px; /* Add space above the contact details */
+  }
+  
+  .contactItem {
+    font-size: 16px; /* Set the font size for contact items */
+    color: #555; /* Use the same color for consistency */
+    margin-bottom: 10px; /* Add space below each contact item */
+  }
+  
+  .contactItem a {
+    color: #3347a8; /* Link color for email and website */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .contactItem a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  .officeHours {
+    margin-top: 30px; /* Add space above the office hours section */
+    font-size: 16px; /* Font size for office hours text */
+    color: #555; /* Use the same color for consistency */
+  }
+  

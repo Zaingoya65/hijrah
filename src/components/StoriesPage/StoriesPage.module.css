@@ -1,0 +1,28 @@
+
+
+.page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+
+    color: #4a90e2;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

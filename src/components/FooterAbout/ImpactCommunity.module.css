@@ -1,0 +1,40 @@
+
+  
+  .heading {
+    font-size: 36px;
+    color: #00467f;
+    margin-bottom: 20px;
+
+    font-family: 'Playfair Display', serif;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+ 
+  .paragraph {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .paragraph {
+      font-size: 14px;
+    }
+  }
+  

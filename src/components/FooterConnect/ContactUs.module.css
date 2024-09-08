@@ -1,0 +1,96 @@
+.contactFormContainer {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup, .textareaGroup {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  margin-right: 10px;
+  color: #888;
+  flex-shrink: 0;
+}
+
+.inputField, .textArea {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.textArea {
+  height: 100px;
+  resize: none;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.checkboxLabel {
+  color: #555;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.submitIcon {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .inputGroup, .textareaGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .submitButton {
+    width: 100%;
+    justify-content: center;
+  }
+}

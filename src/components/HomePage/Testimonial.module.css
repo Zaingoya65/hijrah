@@ -1,0 +1,150 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.heading {
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #00467f;
+}
+
+.carousel {
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clientInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clientImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  
+}
+
+.clientDetails {
+  margin-top: 15px;
+}
+
+.clientName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00467f;
+}
+
+.clientPosition {
+  font-size: 1.1rem;
+  color: #666666;
+}
+
+.quote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: #333;
+  position: relative;
+  padding: 20px;
+}
+
+.quoteIcon {
+  font-size: 2rem;
+  color: #00467f;
+}
+
+.text {
+  margin: 0 15px;
+}
+
+.customIndicators {
+  text-align: center;
+}
+
+.indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: #00467f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .clientImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .testimonial {
+    padding: 15px;
+  }
+
+  .clientName {
+    font-size: 1.3rem;
+  }
+
+  .clientPosition {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 1.1rem;
+  }
+
+  .quoteIcon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .clientImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .clientName {
+    font-size: 1.2rem;
+  }
+
+  .clientPosition {
+    font-size: 0.9rem;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,110 @@
+.con{
+    margin: 25px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .labs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .lab {
+    width: 45%; /* Adjusted width for two columns per row */
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .lab:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .labName {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .facilities, .description {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .modalImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .modalText {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .closeButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .labs {
+      flex-direction: column;
+    }
+  
+    .lab {
+      width: 100%; /* Full width for single column layout on smaller screens */
+    }
+  
+    .modalContent {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  

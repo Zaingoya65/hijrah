@@ -1,0 +1,36 @@
+.timeline {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .events {
+    border-left: 2px solid #007bff;
+    position: relative;
+  }
+  
+  .event {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .details {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  

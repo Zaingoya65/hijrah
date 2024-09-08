@@ -1,0 +1,63 @@
+.campusLifeSection {
+  padding: 40px 15px;
+ 
+  width: 70%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #3347a8;
+  text-align: center;
+}
+
+.blogPost {
+  margin-bottom: 40px;
+  text-align: left; /* Align text to the left */
+}
+
+.imageGallery {
+  display: flex;
+  justify-content: flex-start; /* Align images to the left */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.galleryImage {
+  width: 30%;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galleryImage:hover {
+  transform: scale(1.05);
+}
+
+.blogTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3347a8;
+  margin-bottom: 20px;
+}
+
+.blogDescription {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: left; /* Align description to the left */
+}
+
+@media (min-width: 768px) {
+  .blogPost {
+    align-items: flex-start; /* Align content to the left on larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .blogPost {
+    align-items: flex-start;
+  }
+}

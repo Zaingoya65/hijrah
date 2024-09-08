@@ -1,0 +1,77 @@
+.con{
+    margin: 25px 0;
+}
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .timetable {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .dayColumn {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  
+  .dayTitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .classes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .classItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .time {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .subject {
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .timetable {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .dayColumn {
+      padding: 10px;
+    }
+  
+    .classItem {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .timetable {
+      grid-template-columns: 1fr;
+    }
+  
+    .classItem {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

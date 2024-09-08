@@ -1,0 +1,123 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+ 
+    border-radius: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .developerImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #0073b1;
+    margin-bottom: 20px;
+  }
+  
+  .textContainer {
+    max-width: 600px;
+  }
+  
+  .developerName {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .developerIntro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .developerDetails {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .projectList {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .developerEmail {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #666;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #0073b1;
+  }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .socialMedia a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .personalInterests {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .interestsContent {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .developerName {
+      font-size: 2rem;
+    }
+  
+    .developerIntro {
+      font-size: 1rem;
+    }
+  
+    .profileContainer {
+      padding: 20px;
+    }
+  
+    .developerDetails {
+      font-size: 1rem;
+    }
+  
+    .sectionTitle {
+      font-size: 1.3rem;
+    }
+  }
+  

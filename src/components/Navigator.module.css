@@ -1,0 +1,104 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff; /* Navbar background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+img {
+  width: 100px; /* Adjust logo size */
+  height: 100px;
+}
+
+
+
+.menuToggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menuIcon {
+  font-size: 1.5rem;
+}
+
+.navMenu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu li {
+  margin: 0 1rem;
+}
+
+.navMenu a {
+  text-decoration: none;
+  color: #333; /* Link color */
+  font-weight: 500;
+}
+
+.navMenu a:hover,
+.navMenu a.active {
+  color: #007bff; /* Active link color */
+  font-weight: bold;
+}
+
+.applyOnlineButton {
+  background-color: #007bff; /* Button color */
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.applyOnlineButton:hover {
+  background-color: #095bb3; /* Button hover color */
+
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+  }
+
+  .navMenu {
+    margin-top: 50px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navMenu.show {
+    display: flex;
+  }
+
+  .navMenu li {
+    margin: 0.5rem 0;
+  }
+
+  .closeButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .closeButton svg {
+    font-size: 1.5rem;
+  }
+}

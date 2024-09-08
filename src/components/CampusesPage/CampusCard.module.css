@@ -1,0 +1,15 @@
+.pad{
+  margin: 50px 0;
+}
+
+.title{
+  line-height: 1.2em;
+  margin-top: 20px;
+  align-items: center;
+color: rgb(30 41 59);
+}
+
+.para{
+  font-size: 16px;
+  line-height: 1.7;
+}
